@@ -24,17 +24,21 @@ function keyPressed()
 	if (keyCode===85)
 	{
 		paper.velocityY=-10;
+		paper.velocityX=0;
 	}
 	if (keyCode===68)
 	{
 		paper.velocityY=10;
+		paper.velocityX=0;
 	}
 	if (keyCode===76)
 	{
 		paper.velocityX=10;
+		paper.velocityY=0;
 	}
 	if (keyCode===82)
 	{
 		paper.velocityX=-10;
+		paper.velocityY=0;
 	}
 }
